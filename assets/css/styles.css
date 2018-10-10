@@ -1,0 +1,26 @@
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+}
+
+#bc {
+  opacity:0.9;
+  background-color:rgba(0,0,0,0.7);
+}
+
+@media (min-width: 300px) {
+  #bc1 {
+    background-position:left;
+    background-repeat:no-repeat;
+    background-size:contain;
+  }
+}
+
+.btn:not(:disabled):not(.disabled):hover {
+}
+
+.text-center {
+  top:50%;
+  left:50%;
+  position:relative;
+  transform:translate(-50%,-50%);
+}
+
